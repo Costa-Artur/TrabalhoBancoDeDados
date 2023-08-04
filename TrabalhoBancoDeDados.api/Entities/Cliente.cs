@@ -1,7 +1,10 @@
+using System.Text.Json.Serialization;
+
 namespace TrabalhoBancoDeDados.Entities;
 
 public class Cliente{
     public int Id {get; set;}
+    [JsonPropertyName("nome")]
     public string Nome {get; set;} = string.Empty;
     public Cidade? Cidade {get; set;}
     public int CidadeId {get; set;}

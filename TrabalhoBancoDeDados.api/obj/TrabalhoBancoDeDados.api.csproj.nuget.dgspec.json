@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj": {}
+    "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj": {
+    "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
+        "projectUniqueName": "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
         "projectName": "TrabalhoBancoDeDados.api",
-        "projectPath": "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
+        "projectPath": "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
         "packagesPath": "C:\\Users\\7828497\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\obj\\",
+        "outputPath": "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

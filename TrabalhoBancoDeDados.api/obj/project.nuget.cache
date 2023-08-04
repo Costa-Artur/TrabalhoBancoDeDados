@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5hqvsNt196gYN+BSq1fAaVkbTHbPKXThLaAFrQF/DO5h9aZimsaxNPjZLbWBKHhUwtVch/32NaLxG5k7ctlf9w==",
+  "dgSpecHash": "U8ZTomOU1PJR3n6QXXb64WW+JsYj+b8jECYS0v7wfW0lYqJbmVy13xpCeb3g2kJXbyFTPLyiEvuSdFdzzF3r3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
+  "projectFilePath": "c:\\Users\\7828497\\Downloads\\RedisRabbit-main\\RedisRabbit-main\\TrabalhoBancoDeDados\\TrabalhoBancoDeDados.api\\TrabalhoBancoDeDados.api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\7828497\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\7828497\\.nuget\\packages\\masstransit\\8.0.16\\masstransit.8.0.16.nupkg.sha512",

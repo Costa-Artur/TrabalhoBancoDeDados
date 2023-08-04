@@ -1,4 +1,7 @@
+using System.Security.Authentication;
+using MassTransit;
 using Microsoft.EntityFrameworkCore;
+using StackExchange.Redis;
 using TrabalhoBancoDeDados.Contexts;
 
 internal class Program
@@ -17,6 +20,26 @@ internal class Program
         builder.Services.AddDbContext<ClienteContext>(options =>
         {
             options.UseNpgsql("Host=localhost;Database=trabalho;Username=postgres;Password=123456");
+        });
+
+        builder.Services.AddSingleton<IConnectionMultiplexer>(ConnectionMultiplexer.Connect("redis-16456.c308.sa-east-1-1.ec2.cloud.redislabs.com:16456,password=m0725si9gKgyDn8grJqFx3vHXwlGUDlF"));
+
+        builder.Services.AddMassTransit(busConfigurator =>
+        {
+            busConfigurator.SetKebabCaseEndpointNameFormatter();
+            busConfigurator.UsingRabbitMq((context, busFactoryConfigurator) =>
+            {
+                busFactoryConfigurator.Host("jackal-01.rmq.cloudamqp.com", 5671, "mxixoldu", h =>
+                {
+                    h.Username("mxixoldu");
+                    h.Password("dGSjTThRm61xWXfmKFGxi79hc_nW-awP");
+
+                    h.UseSsl(s =>
+                    {
+                        s.Protocol = SslProtocols.Tls12;
+                    });
+                });
+            });
         });
 
         var app = builder.Build();
